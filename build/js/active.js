@@ -117,3 +117,10 @@
     }
 
 })(jQuery);
+
+//DESPLEGABLE MENÚ NOSOTROS
+
+$('#dmenu').hover(function(){
+	$('#navbarDropdown').trigger('click')
+  //console.log('hover');
+})

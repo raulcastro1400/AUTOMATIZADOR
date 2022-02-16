@@ -485,6 +485,14 @@ img {
       .classynav ul li a {
         font-weight: 700;
         text-transform: uppercase;
+
+        &:hover,
+        &:focus {
+          color: $hover-color;
+        }
+      }
+
+      .dropdown li a {
         &:hover,
         &:focus {
           color: $hover-color;
@@ -1538,4 +1546,8 @@ img {
       font-size: 18px;
     }
   }
+}
+
+.dropdown {
+  white-space: nowrap;
 }
