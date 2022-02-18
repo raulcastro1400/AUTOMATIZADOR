@@ -124,3 +124,8 @@ $('#dmenu').hover(function(){
 	$('#navbarDropdown').trigger('click')
   //console.log('hover');
 })
+
+$('#dmenu2').hover(function(){
+	$('#navbarDropdown2').trigger('click')
+  //console.log('hover');
+})

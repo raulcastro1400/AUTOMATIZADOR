@@ -584,8 +584,11 @@ img {
   -ms-grid-row-align: center;
   align-items: center;
 }
+
+/* TAMAÑO DEL RECUADRO DE LOS MENUS.  */
+
 .breakpoint-off .classynav ul li .dropdown {
-  width: 180px;
+  width: auto;
   position: absolute;
   background-color: #fff;
   top: 120%;
