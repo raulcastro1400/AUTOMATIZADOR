@@ -17,6 +17,7 @@
 @import url("/build/css/magnific-popup.css");
 @import url("/build/css/font-awesome.min.css");
 @import url("/build/css/custom-icon.css");
+
 @import url("/build/css/classy-nav.min.css");
 
 /* :: 3.0 Base CSS */
@@ -735,12 +736,17 @@ img {
 }
 
 /* Course Area CSS */
+.program{
+  align-items: center;
+}
+
 
 .single-course-area {
   .course-icon {
     @include flex(0 0 91px);
     min-width: 91px;
     width: 91px;
+    
     @include bg-gradients;
     width: 91px;
     height: 91px;
@@ -751,9 +757,12 @@ img {
     border-radius: 50%;
     margin-right: 30px;
   }
+
+  
   .course-content {
     h4 {
       margin-bottom: 15px;
+      text-align: center;
       @include trans-duration(500ms);
       @media #{$breakpoint-lg} {
         font-size: 18px;
