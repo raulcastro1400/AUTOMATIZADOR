@@ -1,21 +1,17 @@
 <?php
 require 'app.php';
-
-function incluirTemplate($nombre){
-    include TEMPLATE_URL . "/${nombre}.php";
-}
-
-
-
-
+//FUNCIÓN PARA EL INDEX
 function incluirPrincipal( string $nombre2){
     include PAGES_URL . "/${nombre2}.php";
 
 }
 
+//FUNCIÓN PARA PLANTILLA DE PROGRAMAS  DE ESTUDIO
+function incluirTemplate($nombre){
+    include TEMPLATE_URL . "/${nombre}.php";
+}
 
-
-
+//FUNCION PARA INCLUIR DATOS DE LOS PROGRAMAS DE ESTUDIO
 function incluirPage( 
     string $nombre2,  
     string $titulo,
@@ -34,5 +30,25 @@ function incluirPage(
     {
     include PAGES_URL . "/${nombre2}.php";
 
+}
+
+
+function incluirLineaTiempo(
+    string $nombreLinea,
+    string $yearPlan,
+    string $modulo1,
+    string $descripModulo1,
+    string $modulo2,
+    string $descripModulo2,
+    string $modulo3,
+    string $descripModulo3,
+    string $modulo4,
+    string $descripModulo4
+
+
+
+)
+{
+    include PAGES_URL . "/${nombreLinea}.php";
 }
 

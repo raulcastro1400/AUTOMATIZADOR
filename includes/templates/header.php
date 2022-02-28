@@ -63,7 +63,7 @@
                                         <ul class="nav-item dropdown" id="dmenu">
                                             <li><a href="#">DOCUMENTOS DE GESTIÓN</a></li>
                                             <li><a href="#">RESEÑA HISTORICA</a></li>
-                                            <li><a href="#">VISIÓN MISIÓN - OBJETIVOS</a></li>
+                                            <li><a href="/vision.php">VISIÓN MISIÓN - OBJETIVOS</a></li>
                                             <li><a href="administrativo.php">PERSONAL ADMINISTRATIVO</a></li>
                                             <li><a href="docentes.php">PERSONAL DOCENTE</a></li>
                                         </ul>
@@ -74,7 +74,7 @@
                                             <li><a href="/plataformas.php">Plataformas y Servicios de TI</a></li>
                                             <li><a href="#">Estilismo</a></li>
                                             <li><a href="#">Fabricación de Prendas de vestir</a></li>
-                                            <li><a href="#">Mantenimiento de Sistemas Eléctricos</a></li>
+                                            <li><a href="/electricidad.php">Mantenimiento de Sistemas Eléctricos</a></li>
                                             <li><a href="#">Cocina</a></li>
                                             <li><a href="#">Soldadura</a></li>
                                         </ul>

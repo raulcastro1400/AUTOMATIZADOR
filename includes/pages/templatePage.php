@@ -13,14 +13,14 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                    
+
                         <h3> <?php echo $titulo?> </h3>
-                    
+
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div data-wow-delay="400ms">
+            <div class="row text-justify">
+                <div data-wow-delay="400ms" >
                     <p><?php echo $descripcion?></p>
                 </div>
            <!--      <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
@@ -89,3 +89,4 @@
                         </div>
                     </div>
                 </div>
+
