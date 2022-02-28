@@ -53,7 +53,7 @@
                         </div>
                         <div class="course-content">
                             <a href="">
-                                <h4>Plataformas de Servicios de Tecnologias de la Información</h4>
+                                <h4>Plataformas y Servicios de Tecnologias de la Información</h4>
                             </a>
                             <!--  <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p> -->
                         </div>

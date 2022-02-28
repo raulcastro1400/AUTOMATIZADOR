@@ -1,9 +1,9 @@
 <?php
 
-include 'includes/funtions.php';
+require 'includes/funtions.php';
 
 incluirTemplate('header');
 
-incluirPage('inicio');
+incluirPrincipal('principal');
 
 incluirTemplate('footer');
