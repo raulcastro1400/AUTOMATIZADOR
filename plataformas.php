@@ -4,12 +4,20 @@
 include 'includes/funtions.php';
 
 
-incluirTemplate('header2');
+incluirTemplate('header2',
+    $titlePage = 'PLATAFORMAS Y SERVICIOS TI',
+    $ogDescription = '$decripcion',
+    $ogUrl= __DIR__ . 'plataformas.php',
+    $ogFoto1= FOTO_URL . "1.jpg"
+);
 
 
 incluirPage('templatePage',
 
+    $fotoheader = FOTO_URL . "tecnologia.jpg",
+    
     $titulo='PLATAFORMAS Y SERVICIOS DE TECNOLOGÍAS DE LA INFORMACIÓN  ',
+   
     $decripcion='El Técnico del Programa de Estudios de Plataformas y Servicios de Tecnologías de la Información, es competente para el diseño, implementación y manejo de plataformas de Tecnologías de la Información(TI), tiene dominio en el manejo de herramientas empresariales, configuración y mantenimiento de equipos de cómputo, conectividad de datos, gestión de software a medida en plataformas de escritorio y web. Está capacitado para desempeñarse en cualquier organización o su propia empresa,  brinda soluciones innovadoras en los procesos productivos y de servicios, interactuando con una comunicación asertiva, emprendimiento como soporte de sus actividades profesionales y aplica las tecnologías de información y comunicación para el control y corrección en las organizaciones públicas y privadas.',
 
     $foto1 = FOTO_URL . "1.jpg",
@@ -43,6 +51,11 @@ incluirLineaTiempo('linetime',
 );
 
 
-incluirTemplate('footer');
+incluirTemplate('footer',
+$titlePage = '',  //NO CORRESPONDE AL FOOTER
+$ogDescription = '',//NO CORRESPONDE AL FOOTER
+$ogUrl= '',//NO CORRESPONDE AL FOOTER
+$ogFoto1= ''//NO CORRESPONDE AL FOOTER
+);
 
 

@@ -1,6 +1,6 @@
 
   <!-- ##### FONDO HEADER##### -->
- <div class="breadcumb-area bg-img" style="background-image: url(/build/img/bg-img/breadcumb.jpg);">
+ <div class="breadcumb-area bg-img" style="background-image: url(<?php echo $fotoheader?>);">
         <div class="bradcumbContent">
             <h2>PROGRAMA DE ESTUDIO </h2>
         </div>

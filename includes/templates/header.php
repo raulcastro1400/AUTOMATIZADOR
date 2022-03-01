@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cetpro Julio C. Tello</title>
+    <title>CETPRO JCT - <?php echo $titlePage?></title>
+
+    <meta property="og:title" content="<?php echo $titlePage?>" />
+    <meta property="og:description" content="<?php echo $ogDescription?>" />
+    <meta property="og:url" content="https://www.cetprojct.edu.pe/<?php echo $ogUrl?>" />
+    <meta property="og:image" content="https://www.cetpro.edu.pe/<?php echo $oFoto1?>" />
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/build/css/app.css">
     <link rel="shortcut icon" href="cetpro.ico" type="image/x-icon">
@@ -61,7 +67,14 @@
                                     <li><a href="index.php">Inicio</a></li>
                                     <li> <a href="#">NOSOTROS</a>
                                         <ul class="nav-item dropdown" id="dmenu">
-                                            <li><a href="#">DOCUMENTOS DE GESTIÓN</a></li>
+                                            <li><a href="#">DOCUMENTOS DE GESTIÓN</a>
+                                         <!--    <ul class="dropdown submenu">
+												<li><a href="#" target="_blank">Proyecto educativo institucional</a></li>
+												<li><a href="#" target="_blank">Reglamento institucional</a></li>
+												<li><a href="#" target="_blank">Manual de perfil de puestos</a></li>
+												<li><a href="#" target="_blank">Plan de seguimiento de egresados</a></li>
+											</ul> -->
+                                            </li>
                                             <li><a href="#">RESEÑA HISTORICA</a></li>
                                             <li><a href="/vision.php">VISIÓN MISIÓN - OBJETIVOS</a></li>
                                             <li><a href="administrativo.php">PERSONAL ADMINISTRATIVO</a></li>

@@ -7,13 +7,22 @@ function incluirPrincipal( string $nombre2){
 }
 
 //FUNCIÓN PARA PLANTILLA DE PROGRAMAS  DE ESTUDIO
-function incluirTemplate($nombre){
+function incluirTemplate(
+    string $nombre,
+    string $titlePage,
+    string $ogDescription,
+    string $ogUrl,
+    string $ogFoto1
+   
+
+){
     include TEMPLATE_URL . "/${nombre}.php";
 }
 
 //FUNCION PARA INCLUIR DATOS DE LOS PROGRAMAS DE ESTUDIO
 function incluirPage( 
-    string $nombre2,  
+    string $nombre2,
+    string $fotoheader,  
     string $titulo,
     string $descripcion,
     string $foto1,
