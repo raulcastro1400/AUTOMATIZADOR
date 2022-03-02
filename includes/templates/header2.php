@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>CETPRO JCT - <?php echo $titlePage?></title>
-    <meta property="og:title" content="<?php echo $titlePage?>" />
-    <meta property="og:description" content="<?php echo $ogDescription?>" />
-    <meta property="og:url" content="https://www.cetprojct.edu.pe/<?php echo $ogUrl?>" />
-    <meta property="og:image" content="https://www.cetpro.edu.pe/<?php echo $oFoto1?>" />
+
+    <title>CETPRO JCT - <?php echo $titlePage ?></title>
+    <meta property="og:title" content="<?php echo $titlePage ?>" />
+    <meta property="og:description" content="<?php echo $ogDescription ?>" />
+    <meta property="og:url" content="https://www.cetprojct.edu.pe/<?php echo $ogUrl ?>" />
+    <meta property="og:image" content="https://www.cetpro.edu.pe/<?php echo $oFoto1 ?>" />
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/build/css/app.css">
@@ -19,7 +19,7 @@
 
 <body>
     <!-- ##### Preloader ##### -->
-  <!--   <div id="preloader">
+    <!--   <div id="preloader">
         <i class="circle-preloader"></i>
     </div>
  -->
@@ -77,12 +77,14 @@
 
                                     <li> <a href="#">Formación</a>
                                         <ul class="nav-item dropdown" id="dmenu2">
-                                            <li><a href="plataformas.php">Plataformas y Servicios de TI</a></li>
-                                            <li><a href="#">Estilismo</a></li>
-                                            <li><a href="#">Fabricación de Prendas de vestir</a></li>
-                                            <li><a href="/electricidad.php">Mantenimiento de Sistemas Eléctricos</a></li>
-                                            <li><a href="#">Cocina</a></li>
-                                            <li><a href="#">Soldadura</a></li>
+                                            <li><a href="/plataformas.php">Plataformas y Servicios de TI</a></li>
+                                            <li><a href="/estilismo.php">Estilismo</a></li>
+                                            <li><a href="/fabricacionPrendas.php">Fabricación de Prendas de vestir</a>
+                                            </li>
+                                            <li><a href="/electricidad.php">Mantenimiento de Sistemas Eléctricos</a>
+                                            </li>
+                                            <li><a href="/cocina.php">Cocina</a></li>
+                                            <li><a href="/soldadura.php">Soldadura</a></li>
                                         </ul>
                                     </li>
 
