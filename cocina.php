@@ -20,7 +20,8 @@ incluirPage(
 
     $titulo = 'COCINA',
 
-    $decripcion = 'COMPLETAR PERFIL DE EGRESADO.',
+    $decripcion = '
+    El técnico en cocina está altamente capacitado, para realizar platos y técnicas culinarias, procesos de adquisición, almacenamiento, preparación, decoración y presentación de platos Nacionales, Internacionales, panadería y pastelería, de acuerdo a procedimientos establecidos, las BPM, normas vigentes, con capacidad de trabajar en equipo, emprender y gestionar su propia empresa de restaurantes y panaderías, considerando el cuidado del medio ambiente.',
 
     $foto1 = FOTO_URL . "1.jpg",
     $foto2 = FOTO_URL . "6.jpg",
@@ -33,22 +34,15 @@ incluirPage(
 
 );
 
-incluirLineaTiempo(
-    'linetime',
+incluirLineaTiempo2(
+    'linetime-2',
 
     $yearPlan = 'PLAN DE ESTUDIOS 2022 - 2023',
-    $modulo1 = 'HERRAMIENTAS DE TI EMPRESARIAL',
-    $descripModulo1 = 'Realizar la puesta en producción de los sistemas de información o servicios de TI, de acuerdo con la planificación efectuada.',
+    $modulo1 = 'MISE PLACE Y TÉCNICAS DE COCINA',
+    $descripModulo1 = 'Realizar la mise en place del área de cocina, aplicando las BPM (Buenas Prácticas de Manipulación) y según la hoja de producción, procedimientos establecidos y normativos.',
 
-    $modulo2 = 'SOPORTE TÉCNICO Y CONTROL DE RIESGOS EN SISTEMAS INFORMÁTICOS',
-    $descripModulo2 = 'Realizar las mejoras, mantenimientos preventivos y acciones correctivas en las infraestructuras y plataformas de TI, de acuerdo con el plan de mejoras, gestión de riesgos, continuidad de negocio y políticas de seguridad.',
-
-    $modulo3 = 'DESARROLLO DE SISTEMAS DE TI Y BASE DE DATOS',
-    $descripModulo3 = 'Atender requerimientos, incidentes y problemas de primer nivel, asimismo brindar asistencia a nivel operativo y funcional en la etapa de puesta en marcha de los sistemas o servicios de TI, según los procedimientos internos de atención, diseño del sistema o servicios, plan de implantación y buenas prácticas de TI',
-
-
-    $modulo4 = 'PROYECTOS DE TI Y SOLUCIONES WEB',
-    $descripModulo4 = 'Ejecutar acciones de monitoreo y otras acciones operativas programadas, de acuerdo con las buenas prácticas de aseguramiento de operación del CPD y salvaguarda de la información del negocio.'
+    $modulo2 = 'COCINA PERUANA E INTERNACIONAL - PANADERIA Y PASTELERIA',
+    $descripModulo2 = 'Elabora platos culinarios, aplicando las BPM (Buenas Prácticas de Manipulación), y técnicas culinarias, de acuerdo a la oferta del establecimiento, requerimiento del cliente (comanda) y normativa vigente.'
 
 
 );

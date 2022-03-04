@@ -20,7 +20,7 @@ incluirPage(
 
     $titulo = 'SOLDADURA',
 
-    $decripcion = 'COMPLETAR PERFIL DE EFRESADO',
+    $decripcion = 'El técnico en Soldadura es competente en identificar y realizar planos desarrollados en la industria metal mecánica de acuerdo a las especificaciones del diseño así como el habilitado y la unión por los procesos de soldadura de fusión (SMAW, OFW, GMAW y GTAW), según especificaciones técnicas exigidas por los sectores industriales,  cumpliendo procedimientos establecidos por las diferentes empresas, en condiciones de seguridad y cuidado del medio ambiente; brinda soluciones innovadoras, aplicando normas nacionales e internacionales, tomando en cuenta el emprendimiento, una comunicación efectiva, el uso de tecnologías de información y comunicación.',
 
     $foto1 = FOTO_URL . "1.jpg",
     $foto2 = FOTO_URL . "6.jpg",
@@ -33,23 +33,18 @@ incluirPage(
 
 );
 
-incluirLineaTiempo(
-    'linetime',
+incluirLineaTiempo3(
+    'linetime-3',
 
     $yearPlan = 'PLAN DE ESTUDIOS 2022 - 2023',
-    $modulo1 = 'HERRAMIENTAS DE TI EMPRESARIAL',
-    $descripModulo1 = 'Realizar la puesta en producción de los sistemas de información o servicios de TI, de acuerdo con la planificación efectuada.',
+    $modulo1 = 'CALDERERIA INDUSTRIAL',
+    $descripModulo1 = 'Dibujar planos de piezas, máquinas, equipos y planos de montaje, de acuerdo con las especificaciones del diseño',
 
-    $modulo2 = 'SOPORTE TÉCNICO Y CONTROL DE RIESGOS EN SISTEMAS INFORMÁTICOS',
-    $descripModulo2 = 'Realizar las mejoras, mantenimientos preventivos y acciones correctivas en las infraestructuras y plataformas de TI, de acuerdo con el plan de mejoras, gestión de riesgos, continuidad de negocio y políticas de seguridad.',
+    $modulo2 = 'CONFORMADO DE METALES',
+    $descripModulo2 = 'RDar forma a la pieza de madera empleando la maquinaria correspondiente, de acuerdo con las medidas especificadas en la ficha técnica, estándares internacionales de calidad, y la normativa vigente.',
 
-    $modulo3 = 'DESARROLLO DE SISTEMAS DE TI Y BASE DE DATOS',
-    $descripModulo3 = 'Atender requerimientos, incidentes y problemas de primer nivel, asimismo brindar asistencia a nivel operativo y funcional en la etapa de puesta en marcha de los sistemas o servicios de TI, según los procedimientos internos de atención, diseño del sistema o servicios, plan de implantación y buenas prácticas de TI',
-
-
-    $modulo4 = 'PROYECTOS DE TI Y SOLUCIONES WEB',
-    $descripModulo4 = 'Ejecutar acciones de monitoreo y otras acciones operativas programadas, de acuerdo con las buenas prácticas de aseguramiento de operación del CPD y salvaguarda de la información del negocio.'
-
+    $modulo3 = 'SOLDADURA POR FUSIÓN (SMAG – (OAW – OFW) - GTAW - GMAW)',
+    $descripModulo3 = 'Ejecutar el proceso de Soldadura a los componentes de máquinas y equipos según especificaciones técnicas del diseño aprobado, plan y programa de producción, procedimientos establecidos por la empresa y la normativa correspondiente'
 
 );
 

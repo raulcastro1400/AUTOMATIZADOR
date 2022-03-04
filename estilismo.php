@@ -20,7 +20,7 @@ incluirPage(
 
     $titulo = 'ESTILISMO',
 
-    $decripcion = 'COMPLLETAR EGRESADO',
+    $decripcion = 'El Técnico en Estilismo es componente para realizar servicios de peluquería y barbería, tratamiento capilar, permanentes, decoloración, con maquillaje de vanguardia y depilación básica, cuidando manos y pies haciendo uso de herramientas, equipos y accesorios de alta tecnología cumpliendo las normas de bioseguridad y brindando soluciones innovadoras, cuidando el medio ambiente, a través de una comunicación efectiva y asertiva, utilizando tecnología de información y comunicación con mentalidad emprendedora para insertarse al mercado laboral.',
 
     $foto1 = FOTO_URL . "1.jpg",
     $foto2 = FOTO_URL . "6.jpg",
@@ -37,18 +37,18 @@ incluirLineaTiempo(
     'linetime',
 
     $yearPlan = 'PLAN DE ESTUDIOS 2022 - 2023',
-    $modulo1 = 'HERRAMIENTAS DE TI EMPRESARIAL',
-    $descripModulo1 = 'Realizar la puesta en producción de los sistemas de información o servicios de TI, de acuerdo con la planificación efectuada.',
+    $modulo1 = 'TRATAMIENTO CAPILAR, TINTURACION, ONDULACION Y LACEADO',
+    $descripModulo1 = 'Realizar procedimientos técnicos capilares, tomando en cuenta su diagnóstico, requerimientos del cliente, y de bioseguridad e higiene',
 
-    $modulo2 = 'SOPORTE TÉCNICO Y CONTROL DE RIESGOS EN SISTEMAS INFORMÁTICOS',
-    $descripModulo2 = 'Realizar las mejoras, mantenimientos preventivos y acciones correctivas en las infraestructuras y plataformas de TI, de acuerdo con el plan de mejoras, gestión de riesgos, continuidad de negocio y políticas de seguridad.',
+    $modulo2 = 'CORTE DE CABELLO, BARBERIA Y PEINADOS DE ESTILO.',
+    $descripModulo2 = 'Ejecutar el servicio de peluquería y barbería, teniendo en cuenta el diagnóstico capilar, requerimientos del cliente, procedimientos del establecimiento, criterios técnicos, estéticos y de bioseguridad e higiene.',
 
-    $modulo3 = 'DESARROLLO DE SISTEMAS DE TI Y BASE DE DATOS',
-    $descripModulo3 = 'Atender requerimientos, incidentes y problemas de primer nivel, asimismo brindar asistencia a nivel operativo y funcional en la etapa de puesta en marcha de los sistemas o servicios de TI, según los procedimientos internos de atención, diseño del sistema o servicios, plan de implantación y buenas prácticas de TI',
+    $modulo3 = 'MANICURA Y PEDICURA',
+    $descripModulo3 = 'Ejecutar el servicio de estética en manos y pies teniendo en cuenta los requerimientos del cliente, los procedimientos del establecimiento, criterios técnicos, estéticos y de bioseguridad e higiene.',
 
 
-    $modulo4 = 'PROYECTOS DE TI Y SOLUCIONES WEB',
-    $descripModulo4 = 'Ejecutar acciones de monitoreo y otras acciones operativas programadas, de acuerdo con las buenas prácticas de aseguramiento de operación del CPD y salvaguarda de la información del negocio.'
+    $modulo4 = 'MAQUILLAJE DEPILACION Y CARACTERIZACION',
+    $descripModulo4 = 'Efectuar el servicio de maquillaje de belleza de acuerdo con los requerimientos del cliente, criterios técnicos, estéticos y de bioseguridad e higiene'
 
 
 );

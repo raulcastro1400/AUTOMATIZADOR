@@ -61,3 +61,32 @@ function incluirLineaTiempo(
     include PAGES_URL . "/${nombreLinea}.php";
 }
 
+function incluirLineaTiempo3(
+    string $nombreLinea,
+    string $yearPlan,
+    string $modulo1,
+    string $descripModulo1,
+    string $modulo2,
+    string $descripModulo2,
+    string $modulo3,
+    string $descripModulo3
+
+)
+{
+    include PAGES_URL . "/${nombreLinea}.php";
+}
+
+
+function incluirLineaTiempo2(
+    string $nombreLinea,
+    string $yearPlan,
+    string $modulo1,
+    string $descripModulo1,
+    string $modulo2,
+    string $descripModulo2
+ 
+
+)
+{
+    include PAGES_URL . "/${nombreLinea}.php";
+}

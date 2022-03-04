@@ -20,7 +20,7 @@ incluirPage(
 
     $titulo = 'FABRICACIÓN DE PRENDAS DE VESTIR',
 
-    $decripcion = 'COMPLETAR PERFIL DEL EGRESADO.',
+    $decripcion = 'El técnico egresado del programa de estudios de fabricación de prendas de vestir es eficiente en los procesos de fabricación, tiende, traza, corta, habilita y ensambla prendas de vestir en distintos tipos de tejidos analizando las fichas técnicas, teniendo en cuenta las normas de seguridad industrial,  salud ocupacional y cuidado del medio ambiente, con responsabilidad y trabajo en equipo, comunicándose de manera efectiva y asertiva empleando el uso de las tic e innovando oportunidades de negocio.',
 
     $foto1 = FOTO_URL . "1.jpg",
     $foto2 = FOTO_URL . "6.jpg",
@@ -37,19 +37,17 @@ incluirLineaTiempo(
     'linetime',
 
     $yearPlan = 'PLAN DE ESTUDIOS 2022 - 2023',
-    $modulo1 = 'HERRAMIENTAS DE TI EMPRESARIAL',
-    $descripModulo1 = 'Realizar la puesta en producción de los sistemas de información o servicios de TI, de acuerdo con la planificación efectuada.',
+    $modulo1 = 'CONTROL DE CALIDAD DE PROCESOS DE FABRICACIÓN DE PRENDAS DE VESTIR.',
+    $descripModulo1 = 'RRealizar el control de calidad de la preproducción y la producción de las prendas de vestir, considerando las especificaciones de la ficha técnica.',
 
-    $modulo2 = 'SOPORTE TÉCNICO Y CONTROL DE RIESGOS EN SISTEMAS INFORMÁTICOS',
-    $descripModulo2 = 'Realizar las mejoras, mantenimientos preventivos y acciones correctivas en las infraestructuras y plataformas de TI, de acuerdo con el plan de mejoras, gestión de riesgos, continuidad de negocio y políticas de seguridad.',
+    $modulo2 = 'TÉCNICAS DE CORTE INDUSTRIAL EN PRENDAS DE VESTIR PARA TEJIDO DE PUNTO Y TEJIDO PLANO',
+    $descripModulo2 = 'Tender la tela, según la orden y especificaciones técnicas del producto, de acuerdo con las especificaciones    técnicas, considerando la optimización del material y normativa correspondiente - Trazar/tizar las piezas, según los criterios de precisión, orden de corte y especificaciones técnicas del producto, de acuerdo con las especificaciones técnicas y normativa correspondiente.',
 
-    $modulo3 = 'DESARROLLO DE SISTEMAS DE TI Y BASE DE DATOS',
-    $descripModulo3 = 'Atender requerimientos, incidentes y problemas de primer nivel, asimismo brindar asistencia a nivel operativo y funcional en la etapa de puesta en marcha de los sistemas o servicios de TI, según los procedimientos internos de atención, diseño del sistema o servicios, plan de implantación y buenas prácticas de TI',
+    $modulo3 = 'ENSAMBLE DE PRENDAS DE VESTIR EN TEJIDO PUNTO Y TEJIDO PLANO',
+    $descripModulo3 = 'Habilitar las piezas de tela, de acuerdo con las disposiciones técnicas y normativa correspondiente. - Unir piezas de tela, de acuerdo con las disposiciones técnicas y normativa correspondiente.',
 
-
-    $modulo4 = 'PROYECTOS DE TI Y SOLUCIONES WEB',
-    $descripModulo4 = 'Ejecutar acciones de monitoreo y otras acciones operativas programadas, de acuerdo con las buenas prácticas de aseguramiento de operación del CPD y salvaguarda de la información del negocio.'
-
+    $modulo4 = 'PROCESOS FINALES DE LAS PRENDAS DE VESTIR',
+    $descripModulo4 = 'Realizar el proceso final de la prenda de vestir, en base a los requerimientos del cliente y normativa correspondiente.',
 
 );
 

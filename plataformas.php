@@ -20,11 +20,11 @@ incluirPage(
 
     $titulo = 'PLATAFORMAS Y SERVICIOS DE TECNOLOGÍAS DE LA INFORMACIÓN  ',
 
-    $decripcion = 'El Técnico del Programa de Estudios de Plataformas y Servicios de Tecnologías de la Información, es competente para el diseño, implementación y manejo de plataformas de Tecnologías de la Información(TI), tiene dominio en el manejo de herramientas empresariales, configuración y mantenimiento de equipos de cómputo, conectividad de datos, gestión de software a medida en plataformas de escritorio y web. Está capacitado para desempeñarse en cualquier organización o su propia empresa,  brinda soluciones innovadoras en los procesos productivos y de servicios, interactuando con una comunicación asertiva, emprendimiento como soporte de sus actividades profesionales y aplica las tecnologías de información y comunicación para el control y corrección en las organizaciones públicas y privadas.',
+    $decripcion = 'El técnico en mantenimiento de sistemas eléctricos  es competente,  para realizar los servicios de planificación, instalación, programación,  montaje, desmontaje, mantenimiento y reparación de los sistemas eléctricos - electrónicos, así mismo brinda soluciones innovadores en los procesos productivos y de servicio, considerando las normas y estándares técnicos, normas de  seguridad industrial y cuidado del medio ambiente establecidas en el sector industrial, con una comunicación efectiva, buen manejo de las TICs y habilidades de emprendimientos  en empresas de pequeña o mediana envergadura  propios de su campo profesional.',
 
-    $foto1 = FOTO_URL . "1.jpg",
-    $foto2 = FOTO_URL . "6.jpg",
-    $foto3 = FOTO_URL . "4.jpg",
+    $foto1 = FOTO_PROGRAM . "computacion/plataformas1.jpg",
+    $foto2 = FOTO_PROGRAM . "computacion/plataformas2.jpg",
+    $foto3 = FOTO_PROGRAM . "computacion/plataformas3.jpg",
 
     $nStudiantes = "150",
     $nDocentes = "8",
@@ -34,17 +34,17 @@ incluirPage(
 );
 
 incluirLineaTiempo(
-    'linetime',
+    'linetime-3',
 
     $yearPlan = 'PLAN DE ESTUDIOS 2022 - 2023',
-    $modulo1 = 'HERRAMIENTAS DE TI EMPRESARIAL',
+    $modulo1 = 'ELECTRICIDAD Y METROLOGÍA',
     $descripModulo1 = 'Realizar la puesta en producción de los sistemas de información o servicios de TI, de acuerdo con la planificación efectuada.',
 
-    $modulo2 = 'SOPORTE TÉCNICO Y CONTROL DE RIESGOS EN SISTEMAS INFORMÁTICOS',
-    $descripModulo2 = 'Realizar las mejoras, mantenimientos preventivos y acciones correctivas en las infraestructuras y plataformas de TI, de acuerdo con el plan de mejoras, gestión de riesgos, continuidad de negocio y políticas de seguridad.',
+    $modulo2 = 'INSTALACIONES ELÉCTRICAS EN EDIFICACIONES',
+    $descripModulo2 = 'Implementar el suministro de alimentación eléctrica en edificaciones e industrias, de acuerdo al diseño y planos eléctricos, demanda de energía, uso eficiente de la energía, recomendaciones de los fabricantes, estándares de seguridad y normativa vigente.',
 
-    $modulo3 = 'DESARROLLO DE SISTEMAS DE TI Y BASE DE DATOS',
-    $descripModulo3 = 'Atender requerimientos, incidentes y problemas de primer nivel, asimismo brindar asistencia a nivel operativo y funcional en la etapa de puesta en marcha de los sistemas o servicios de TI, según los procedimientos internos de atención, diseño del sistema o servicios, plan de implantación y buenas prácticas de TI',
+    $modulo3 = 'INSTALACIONES ELÉCTRICAS INDUSTRIALES',
+    $descripModulo3 = 'Instalar elementos de conducción de energía eléctrica y de comunicaciones, equipos eléctricos y electrónicos de configuración básica en las edificaciones e industrias, de acuerdo al diseño y planos eléctricos, tipos de energía, demanda de carga eléctrica, manuales de fabricantes, arquitectura de circuitos de alimentación eléctrica, estándares de seguridad y normativa vigente.',
 
 
     $modulo4 = 'PROYECTOS DE TI Y SOLUCIONES WEB',
