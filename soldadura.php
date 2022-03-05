@@ -22,9 +22,9 @@ incluirPage(
 
     $decripcion = 'El técnico en Soldadura es competente en identificar y realizar planos desarrollados en la industria metal mecánica de acuerdo a las especificaciones del diseño así como el habilitado y la unión por los procesos de soldadura de fusión (SMAW, OFW, GMAW y GTAW), según especificaciones técnicas exigidas por los sectores industriales,  cumpliendo procedimientos establecidos por las diferentes empresas, en condiciones de seguridad y cuidado del medio ambiente; brinda soluciones innovadoras, aplicando normas nacionales e internacionales, tomando en cuenta el emprendimiento, una comunicación efectiva, el uso de tecnologías de información y comunicación.',
 
-    $foto1 = FOTO_URL . "1.jpg",
-    $foto2 = FOTO_URL . "6.jpg",
-    $foto3 = FOTO_URL . "4.jpg",
+    $foto1 = FOTO_PROGRAM . "soldadura/soldadura1.jpg",
+    $foto2 = FOTO_PROGRAM . "soldadura/soldadura2.jpg",
+    $foto3 = FOTO_PROGRAM . "soldadura/soldadura3.jpg",
 
     $nStudiantes = "150",
     $nDocentes = "8",

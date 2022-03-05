@@ -22,9 +22,9 @@ incluirPage(
 
     $decripcion = 'El Técnico en Estilismo es componente para realizar servicios de peluquería y barbería, tratamiento capilar, permanentes, decoloración, con maquillaje de vanguardia y depilación básica, cuidando manos y pies haciendo uso de herramientas, equipos y accesorios de alta tecnología cumpliendo las normas de bioseguridad y brindando soluciones innovadoras, cuidando el medio ambiente, a través de una comunicación efectiva y asertiva, utilizando tecnología de información y comunicación con mentalidad emprendedora para insertarse al mercado laboral.',
 
-    $foto1 = FOTO_URL . "1.jpg",
-    $foto2 = FOTO_URL . "6.jpg",
-    $foto3 = FOTO_URL . "4.jpg",
+    $foto1 = FOTO_PROGRAM . "cosmetologia/estilismo1.jpg",
+    $foto2 = FOTO_PROGRAM . "cosmetologia/estilismo2.jpg",
+    $foto3 = FOTO_PROGRAM . "cosmetologia/estilismo3.jpg",
 
     $nStudiantes = "150",
     $nDocentes = "8",

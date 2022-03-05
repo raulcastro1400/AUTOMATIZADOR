@@ -23,9 +23,9 @@ incluirPage(
     $decripcion = '
     El técnico en cocina está altamente capacitado, para realizar platos y técnicas culinarias, procesos de adquisición, almacenamiento, preparación, decoración y presentación de platos Nacionales, Internacionales, panadería y pastelería, de acuerdo a procedimientos establecidos, las BPM, normas vigentes, con capacidad de trabajar en equipo, emprender y gestionar su propia empresa de restaurantes y panaderías, considerando el cuidado del medio ambiente.',
 
-    $foto1 = FOTO_URL . "1.jpg",
-    $foto2 = FOTO_URL . "6.jpg",
-    $foto3 = FOTO_URL . "4.jpg",
+    $foto1 = FOTO_PROGRAM . "gastronomia/cocina1.jpg",
+    $foto2 = FOTO_PROGRAM . "gastronomia/cocina2.jpg",
+    $foto3 = FOTO_PROGRAM . "gastronomia/cocina3.jpg",
 
     $nStudiantes = "150",
     $nDocentes = "8",
