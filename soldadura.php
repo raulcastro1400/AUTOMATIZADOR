@@ -7,9 +7,9 @@ include 'includes/funtions.php';
 incluirTemplate(
     'header2',
     $titlePage = 'SOLDADURA',
-    $ogDescription = '$decripcion',
-    $ogUrl = __DIR__ . 'soldadura.php',
-    $ogFoto1 = FOTO_URL . "1.jpg"
+    $ogDescription = 'El técnico en Soldadura es competente en identificar y realizar planos desarrollados en la industria metal mecánica de acuerdo a las especificaciones del diseño así como el habilitado y la unión por los procesos de soldadura de fusión (SMAW, OFW, GMAW y GTAW), según especificaciones técnicas exigidas por los sectores industriales',
+    $ogUrl = OG_URL . 'soldadura.php',
+    $ogFoto1 = FOTO_URL . "programas/soldadura/soldadura1.jpg"
 );
 
 
@@ -47,6 +47,39 @@ incluirLineaTiempo3(
     $descripModulo3 = 'Ejecutar el proceso de Soldadura a los componentes de máquinas y equipos según especificaciones técnicas del diseño aprobado, plan y programa de producción, procedimientos establecidos por la empresa y la normativa correspondiente'
 
 );
+
+
+sectionDocente(
+    'templateDocente',
+
+
+    //DATOS DE CADA DOCENTE
+    $fotoDocente1 = FOTO_DOCENTE . '',
+    $info1 = '',
+    $programaDocente1 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente2 = FOTO_DOCENTE . '',
+    $info2 = '',
+    $programaDocente2 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente3 = FOTO_DOCENTE . '',
+    $info3 = '',
+    $programaDocente3 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente4 = FOTO_DOCENTE . '',
+    $info4 = '',
+    $programaDocente4 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente5 = FOTO_DOCENTE . '',
+    $info5 = '',
+    $programaDocente5 = '',
+    //DATOS DE CADA DOCENTE    
+    $fotoDocente6 = FOTO_DOCENTE . '',
+    $info6 = '',
+    $programaDocente6 = ''
+
+);
+
 
 
 incluirTemplate(

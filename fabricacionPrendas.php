@@ -7,9 +7,9 @@ include 'includes/funtions.php';
 incluirTemplate(
     'header2',
     $titlePage = 'FABRICACIÓN DE PRENDAS DE VESTIR',
-    $ogDescription = '$decripcion',
-    $ogUrl = __DIR__ . 'plataformas.php',
-    $ogFoto1 = FOTO_URL . "1.jpg"
+    $ogDescription = 'El técnico egresado del programa de estudios de fabricación de prendas de vestir es eficiente en los procesos de fabricación, tiende, traza, corta, habilita y ensambla prendas de vestir en distintos tipos de tejidos analizando las fichas técnicas, teniendo en cuenta las normas de seguridad industrial',
+    $ogUrl = OG_URL . 'fabricacionPrendas.php',
+    $ogFoto1 = FOTO_URL . "programas/confeccion/vertir3.jpg"
 );
 
 
@@ -50,6 +50,40 @@ incluirLineaTiempo(
     $descripModulo4 = 'Realizar el proceso final de la prenda de vestir, en base a los requerimientos del cliente y normativa correspondiente.',
 
 );
+
+
+
+sectionDocente(
+    'templateDocente',
+
+
+    //DATOS DE CADA DOCENTE
+    $fotoDocente1 = FOTO_DOCENTE . 'richard.jpg',
+    $info1 = 'LIC. RICHARD GALINDO TITO',
+    $programaDocente1 = 'DOCENTE DE FRABRICACIÓN DE PRENDAS DE VESTIR',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente2 = FOTO_DOCENTE . 'ana_confec.jpg',
+    $info2 = 'LIC. ANA GAMARRA CAJAHUAMAN',
+    $programaDocente2 = 'DOCENTE DE FRABRICACIÓN DE PRENDAS DE VESTIR',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente3 = FOTO_DOCENTE . '',
+    $info3 = '',
+    $programaDocente3 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente4 = FOTO_DOCENTE . '',
+    $info4 = '',
+    $programaDocente4 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente5 = FOTO_DOCENTE . '',
+    $info5 = '',
+    $programaDocente5 = '',
+    //DATOS DE CADA DOCENTE    
+    $fotoDocente6 = FOTO_DOCENTE . '',
+    $info6 = '',
+    $programaDocente6 = ''
+
+);
+
 
 
 incluirTemplate(

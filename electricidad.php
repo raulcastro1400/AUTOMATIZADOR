@@ -7,9 +7,9 @@ include 'includes/funtions.php';
 incluirTemplate(
     'header2',
     $titlePage = 'MANTENIMIENTO SISTEMAS ELÉCTRICOS',
-    $ogDescription = '$decripcion',
-    $ogUrl = __DIR__ . 'electricidad.php',
-    $ogFoto1 = FOTO_URL . "1.jpg"
+    $ogDescription = 'El técnico en mantenimiento de sistemas eléctricos  es competente,  para realizar los servicios de planificación, instalación, programación,  montaje, desmontaje, mantenimiento y reparación de los sistemas eléctricos - electrónicos',
+    $ogUrl = OG_URL . 'electricidad.php',
+    $ogFoto1 = FOTO_URL . "programas/electricidad/electricidad1.jpg"
 );
 
 
@@ -49,6 +49,38 @@ incluirLineaTiempo3(
     $descripModulo3 = 'Instalar elementos de conducción de energía eléctrica y de comunicaciones, equipos eléctricos y electrónicos de configuración básica en las edificaciones e industrias, de acuerdo al diseño y planos eléctricos, tipos de energía, demanda de carga eléctrica, manuales de fabricantes, arquitectura de circuitos de alimentación eléctrica, estándares de seguridad y normativa vigente.',
 
 
+
+);
+
+
+sectionDocente(
+    'templateDocente',
+
+
+    //DATOS DE CADA DOCENTE
+    $fotoDocente1 = FOTO_DOCENTE . 'julio.jpg',
+    $info1 = 'LIC. JULIO TRUJILLO CASTRO',
+    $programaDocente1 = 'DOCENTES DE MANTENIMIENTO DE SISTEMAS ELÉCTRICOS',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente2 = FOTO_DOCENTE . 'roy_electronica.jpg',
+    $info2 = 'PROF. ROY LANGUASCO PEÑA',
+    $programaDocente2 = 'DOCENTES DE MANTENIMIENTO DE SISTEMAS ELÉCTRICOS',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente3 = FOTO_DOCENTE . '',
+    $info3 = '',
+    $programaDocente3 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente4 = FOTO_DOCENTE . '',
+    $info4 = '',
+    $programaDocente4 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente5 = FOTO_DOCENTE . '',
+    $info5 = '',
+    $programaDocente5 = '',
+    //DATOS DE CADA DOCENTE    
+    $fotoDocente6 = FOTO_DOCENTE . '',
+    $info6 = '',
+    $programaDocente6 = ''
 
 );
 

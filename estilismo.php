@@ -7,9 +7,9 @@ include 'includes/funtions.php';
 incluirTemplate(
     'header2',
     $titlePage = 'ESTILISMO',
-    $ogDescription = '$decripcion',
-    $ogUrl = __DIR__ . 'plataformas.php',
-    $ogFoto1 = FOTO_URL . "1.jpg"
+    $ogDescription = 'El Técnico en Estilismo es componente para realizar servicios de peluquería y barbería, tratamiento capilar, permanentes, decoloración, con maquillaje de vanguardia y depilación básica, cuidando manos y pies haciendo uso de herramientas',
+    $ogUrl = OG_URL . 'estilismo.php',
+    $ogFoto1 = FOTO_URL . "programas/cosmetologia/estilismo1.jpg"
 );
 
 
@@ -50,6 +50,37 @@ incluirLineaTiempo(
     $modulo4 = 'MAQUILLAJE DEPILACION Y CARACTERIZACION',
     $descripModulo4 = 'Efectuar el servicio de maquillaje de belleza de acuerdo con los requerimientos del cliente, criterios técnicos, estéticos y de bioseguridad e higiene'
 
+
+);
+
+sectionDocente(
+    'templateDocente',
+
+
+    //DATOS DE CADA DOCENTE
+    $fotoDocente1 = FOTO_DOCENTE . 'olinda.jpg',
+    $info1 = 'MG. OLINDA RIXE TARAZONA',
+    $programaDocente1 = 'DOCENTE DE ESTILISMO',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente2 = FOTO_DOCENTE . 'frida.jpg',
+    $info2 = 'PROF. FRIDA M. USCUCHAGUA ALVARES',
+    $programaDocente2 = 'DOCENTE DE ESTILISMO',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente3 = FOTO_DOCENTE . 'gisela.jpg',
+    $info3 = 'LIC. GISELA PEÑA DÁVILA',
+    $programaDocente3 = 'DOCENTE DE ESTILISMO',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente4 = FOTO_DOCENTE . '',
+    $info4 = '',
+    $programaDocente4 = '',
+    //DATOS DE CADA DOCENTE
+    $fotoDocente5 = FOTO_DOCENTE . '',
+    $info5 = '',
+    $programaDocente5 = '',
+    //DATOS DE CADA DOCENTE    
+    $fotoDocente6 = FOTO_DOCENTE . '',
+    $info6 = '',
+    $programaDocente6 = ''
 
 );
 
